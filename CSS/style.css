@@ -1,25 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
 *{
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .sidebar{
-    padding: 0%;
-    margin: 0%;
+    padding: 0px 20px;
     height: 100%;
-    width: 25%;
+    width: 20%;
     float: left;
     position: fixed;
-    background-color: #484848;
-}
-.clr{
-    clear: both;
-}
-.main{
-    width: 74%;
-    float: right;
-    
+    background-color: #6d0000;
 }
 
 .sidebar img{
+    width: 50%;
+    height: 50%;
     padding-top: 300px;
+    display: block;
+    margin: 0px auto;
+    
+}
+.sidebar ul{
+    color: white;
+    list-style: none;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+.sidebar a:hover{
+    color: #860202;
+    list-style-image: url('../images/triangle.png');
+}
+
+.clr{
+    clear: both;
+}
+
+.main{
+    padding: 20px;
+    width: 80%;
+    float: right;
+    background-color: white;
+    color: black;
+}
+
+#FirstN {color: #433f3f;}
+#LastN {color: #860202;}
+#Email {
+    color: #860202;
+    text-align: right;
+}
+#Phone {
+    text-align: right;}
+
+.main h1{
+    display: inline;
+    font-size: 100px;
+    font-family: 'ubuntu', sans-serif;
+}
+.main h4{
+    font-size: 20px;
+    padding: 0px;
+    margin: 0%;
 }
