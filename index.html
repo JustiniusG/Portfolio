@@ -4,36 +4,53 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
-       <Title>Justin Gamache Resume</Title>
-       <link rel="stylesheet" href="css/style.css">
+       
+        <Title>Justin Gamache Resume</Title>
+      
+       <!--Custom style sheet-->
+        <link rel="stylesheet" href="css/style.css">
+
+        <!--Custom fonts-->
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swa" rel="stylesheet">
+    
     </head>
     <body>
-        <div class="sidebar">
+        <div class="nav-bar primary-txt-color primary-background-color" id="sidenav">
             <!--Personal detail-->
             <img src="Logo/ProfilePic.jpg" alt="Profile pic">
             <ul>
-                <li><a>Skills</a></li>
-                <li><a>Qualities</a></li>
-                <li><a>Education</a></li>
-                <li><a>Work Experience</a></li>
-                <li><a>Interest</a></li>
-                <li><a>Projects</a></li>
+                <li>
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#qualities">Qualities</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#education">Education</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#work-experience">Work Experience</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#interest">Interest</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
             </ul>
 
         </div>
 
-        <div class="CLR"></div>
-
         <div class="main">
-
             <!--Short descpription-->
-            <div class="section">
-                <div class="section personal-info">
-                    <h1 id="FirstN">Justin</h1> 
-                    <h1 id="LastN">Gamache</h1>
-                    <br>
-                    <h4 id="Phone">(705) 221-5555 - </h4>
-                    <h4 id="Email">JustiniusG98@Gmail.com</h4>
+            <div class="section" id="about">
+                <div class="personal-info">
+                    <h1 id="FirstN">Justin
+                        <span class="primary-txt-color" id="LastN">Gamache</span>
+                    </h1> 
+                    <div class=""> (705) 221-5555 ·
+                        <a href="mailto:name@email.com">JustiniusG98@Gmail.com</a>
+                      </div>
 
                     <div class="short-description">
                         <p>I am a young graduate from Algonquin college in Ottawa, with a passion for programming and problem solving. My career goals are finding full time work in software development and continuing gaining practical experience in this exciting profession. With my proven abilities in customer service, I am determined to understand the work at hand and take the necessary actions or precautions to complete the assignment up to the client’s expectations.</p>
@@ -44,8 +61,8 @@
             </div>
             
             <!--Skills-->
-            <div class="section skills">
-                <p>Skills</p>
+            <div class="section skills" id="skills">
+                <h2>Skills</h2>
                 <ul>
                     <li>Knowledgeable in Java, C# and SQL</li>
                     <li>Proficient in object-oriented programming</li>
@@ -56,8 +73,8 @@
             </div>
 
             <!--Qualities-->
-            <div class="section qualities">
-                <p>Qualities</p>
+            <div class="section qualities" id="qualities">
+                <h2>Qualities</h2>
                 <ul>
                     <li>Dependable</li>
                     <li>Highly organized</li>
@@ -68,30 +85,30 @@
             </div>
 
             <!--Education-->
-            <div class="section education">
-                <p>Education</p>
+            <div class="section education" id="education">
+                <h2>Education</h2>
                 <ul>
                     <!--Algonqion College-->
                     <li>
-                        <p>September 2016 to April 2019</p>
-                        <p>Algonquin College</p>
-                        <p>Ottawa, ON</p>
+                        <p class="resume-date">September 2016 to April 2019</p>
+                        <h3>Algonquin College</h3>
+                        <p class="location">Ottawa, ON</p>
                         <p>Graduated from the computer programmer course</p>
                     </li>
 
                     <!--ESCT-->
                     <li>
-                        <p>September 2012 to June 2016</p>
-                        <p>École secondaire catholique Thériault</p>
-                        <p>Timmins, ON</p>
+                        <p class="resume-date">September 2012 to June 2016</p>
+                        <h3>École secondaire catholique Thériault</h3>
+                        <p class="location">Timmins, ON</p>
                         <p>Ontario Secondary School Diploma (OSSD)</p>
                     </li>
 
                     <!--CO-OP-->
                     <li>
-                        <p>February 2016 to June 2016</p>
-                        <p>Computer technician (co-op placement), Krazy Krazy</p>
-                        <p>Timmins, ON</p>
+                        <p class="resume-date">February 2016 to June 2016</p>
+                        <h3>Computer technician (co-op placement), Krazy Krazy</h3>
+                        <p class="location">Timmins, ON</p>
                         <ul>
                             <li>Update computer operating systems for customers</li>
                             <li>Purge viruses and Trojans from customer’s computers</li>
@@ -105,14 +122,14 @@
             
 
             <!--Work Experience-->
-            <div class="section work">
-                <p>Work Experience</p>
+            <div class="work" id="work-experience">
+                <h2>Work Experience</h2>
                 <ul>
                     <!--DXC-->
                     <li>
-                        <p>February 2021 to present</p>
-                        <p>Service Solution IV, DXC</p>
-                        <p>Ottawa, ON</p>
+                        <p class="resume-date">February 2021 to present</p>
+                        <h3>Service Solution IV, DXC</h3>
+                        <p class="location">Ottawa, ON</p>
                         <ul>
                             <li>Troubleshoot and analyze new and ongoing issues</li>
                             <li>Handle client calls and emails</li>
@@ -124,9 +141,9 @@
 
                     <!--Freelacing-->
                     <li>
-                        <p>February 2016 to present </p>
-                        <p>Computer Technician, Freelance</p>
-                        <p>Gatineau, QC</p>
+                        <p class="resume-date">February 2016 to present </p>
+                        <h3>Computer Technician, Freelance</h3>
+                        <p class="location">Gatineau, QC</p>
                         <ul>
                             <li>Purge viruses and Trojan</li>
                             <li>Replace/upgrade computer components in desktops or laptops</li>
@@ -137,9 +154,9 @@
 
                     <!--NFR-->
                     <li>
-                        <p>January 2020 to February 2021 </p>
-                        <p>Consultant, Newfound Recruiting</p>
-                        <p>Ottawa, ON</p>
+                        <p class="resume-date">January 2020 to February 2021 </p>
+                        <h3>Consultant, Newfound Recruiting</h3>
+                        <p class="location">Ottawa, ON</p>
                         <ul>
                             <li>Manage correspondance with clients via email and phone</li>
                             <li>Troubleshoot/analyze new and ongoing issues for the federal gov</li>
@@ -150,9 +167,9 @@
                     
                     <!--Tim Hortons-->
                     <li>
-                        <p>November 2016 to January 2020</p>
-                        <p>Cashier and Baker, Tim Hortons </p>
-                        <p>Ottawa, ON</p>
+                        <p class="resume-date">November 2016 to January 2020</p>
+                        <h3>Cashier and Baker, Tim Hortons </h3>
+                        <p class="location">Ottawa, ON</p>
                         <ul>
                             <li>4-step Health and Safety Awareness course complete </li>
                             <li>Execute customer transactions</li>
@@ -163,8 +180,9 @@
 
                     <!--Vanellis-->
                     <li>
-                        <p>June 2013 to August 2016 </p>
-                        <p>Supervisor, Vanellis Restaurant (Timmins, ON)</p>
+                        <p class="resume-date">June 2013 to August 2016 </p>
+                        <h3>Supervisor, Vanellis Restaurant </h3>
+                        <p class="location">(Timmins, ON)</p>
                         <ul>
                             <li>Ensure food is stored and facilities are clean for Health and Safety</li>
                             <li>Train employees on customer service and food safety</li>
@@ -175,7 +193,7 @@
 
             <!--Interest-->
             <div class="section interest">
-                <p>Interest</p>
+                <h2 id="interest">Interest</h2>
                 <ul>
                     <li>Video games and virtual reality</li>
                     <li>Cooking</li>
