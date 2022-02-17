@@ -47,17 +47,26 @@
     color: black;
 }
 
-#FirstN {color: #433f3f;}
-#LastN {color: #860202;}
-#Email {
+#FirstN {
+    color: #433f3f;
+    display: inline;
+}
+#LastN {
     color: #860202;
-    text-align: right;
+    display: inline;
 }
 #Phone {
-    text-align: right;}
+    text-align: left;
+    display: inline;
+}
+#Email {
+    color: #860202;
+    display: inline;
+}
+
 
 .main h1{
-    display: inline;
+    
     font-size: 100px;
     font-family: 'ubuntu', sans-serif;
 }
@@ -65,4 +74,21 @@
     font-size: 20px;
     padding: 0px;
     margin: 0%;
+}
+
+.section{
+    background-color: beige;
+    border: 1px black solid;
+    min-height: 90vh;
+}
+
+.personal-info{
+    padding-top: 30vh;
+    padding-left: 40px;
+}
+
+.personal-info p{
+    padding-top: 30px;
+    font-size: 25px;
+    color: gray;
 }
