@@ -58,6 +58,8 @@ h3{font-size:2rem;}
 
 .page-section{
     height: 100vh;
+    left: 0;
+    right: 0;
 }
 
 .nav-bar{
@@ -95,13 +97,15 @@ a:link, a:visited{
     display: inline-block;
 }
 
-.frame{
-    width: 70px;
-    height: 100px;
-    padding-right: 10px;
-    vertical-align: middle;
-    display: table-cell;
-}
+@media (min-width:992px){
+    .frame{
+        width: 70px;
+        height: 100px;
+        padding-right: 10px;
+        vertical-align: middle;
+        display: table-cell;
+    }
+} 
 
 .remove-icon{
     list-style-type: none;
@@ -110,4 +114,8 @@ a:link, a:visited{
 }
 .languages{
     padding-left: 40px;
+}
+
+.about{
+    padding-top: 300px;
 }
