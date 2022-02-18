@@ -8,11 +8,11 @@ body{
     color:#868e96;
 }
 .primary-txt-color {
-    color: red;
+    color: #780a0c;
 }
 
 .primary-background-color {
-    background-color: black;
+    background-color: #780a0c;
 }
 
 @media (min-width:992px){
@@ -80,13 +80,21 @@ h3{font-size:2rem;}
 }
 
 a:hover, a:active{
-    color: red !important;
+    color: black !important;
     text-decoration: underline;
 }
 
 a:link, a:visited{
     color: white;
     text-decoration: none;
+}
+
+a.email-font{
+    color: black;
+}
+a.email-font:hover, a.email-font:active{
+    color: #780a0c !important;
+    text-decoration: underline;
 }
 
 .main{
@@ -106,6 +114,14 @@ a:link, a:visited{
         display: table-cell;
     }
 } 
+
+.frame{
+    width: 70px;
+    height: 100px;
+    padding-right: 10px;
+    vertical-align: middle;
+    display: table-cell;
+}
 
 .remove-icon{
     list-style-type: none;
