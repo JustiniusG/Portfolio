@@ -12,7 +12,7 @@ body{
 }
 
 .primary-background-color {
-    background-color: red;
+    background-color: black;
 }
 
 @media (min-width:992px){
@@ -22,15 +22,17 @@ body{
     }
 }
 
-@media (min-width:992px){#sidenav{
-    text-align:center;
-    position:fixed;
-    top:0;
-    left:0;
-    display:flex;
-    flex-direction:column;
-    width:17rem;
-    height:100vh;
+@media (min-width:992px){
+    #sidenav{
+        text-align:center;
+        position:fixed;
+        top:0;
+        left:0;
+        display:flex;
+        flex-direction:column;
+        width:17rem;
+        height:100vh;
+    }
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -48,4 +50,38 @@ h1{
 h2{font-size:3.5rem;}
 h3{font-size:2rem;}
 
-#LastN{color: red;}
+.page-section{
+    height: 100vh;
+    padding-top: 15rem;
+}
+
+.nav-bar{
+    padding-top: 25vh;
+}
+
+.nav-link{
+    display:block;
+    font-size: 30px;
+}
+
+.nav-list{
+    list-style-type: none;
+}
+
+.ul-list{
+    list-style-image: url('../images/triangle.PNG');
+}
+
+a:hover, a:active{
+    color: red !important;
+    text-decoration: underline;
+}
+
+a:link, a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.main{
+    background-color: blanchedalmond;
+}
