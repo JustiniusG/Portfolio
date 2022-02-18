@@ -40,6 +40,12 @@ h1,h2,h3,h4,h5,h6{
     font-weight: 700;
     text-transform:uppercase;
     color:#343a40;
+    padding-bottom: 0;
+}
+
+p{
+    font: 'Exo 2', sans-serif;
+    font-size: 18px;
 }
 
 h1{
@@ -52,7 +58,6 @@ h3{font-size:2rem;}
 
 .page-section{
     height: 100vh;
-    padding-top: 15rem;
 }
 
 .nav-bar{
@@ -83,5 +88,26 @@ a:link, a:visited{
 }
 
 .main{
-    background-color: blanchedalmond;
+    background-color: white;
+}
+
+.program-expertise{
+    display: inline-block;
+}
+
+.frame{
+    width: 70px;
+    height: 100px;
+    padding-right: 10px;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.remove-icon{
+    list-style-type: none;
+    padding-bottom: 20px;
+    left: 0;
+}
+.languages{
+    padding-left: 40px;
 }
