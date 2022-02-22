@@ -5,6 +5,7 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url('../images/bg.jpeg');
     color:#868e96;
 }
 .primary-txt-color {
@@ -16,23 +17,52 @@ body{
 }
 
 @media (min-width:992px){
-    body{
-        padding-top:0;
-        padding-left:17rem;
+    .main-body{
+        padding-left:17rem; 
+    }
+
+    #sidenav{
+        left: 0;
+        top: 48px;
+        position: fixed;
+        height: 100vh;
+        width: 17rem;
+        background-color: black;
+        opacity: .7;
     }
 }
 
-@media (min-width:992px){
-    #sidenav{
-        text-align:center;
-        position:fixed;
-        top:0;
-        left:0;
-        display:flex;
-        flex-direction:column;
-        width:17rem;
-        height:100vh;
-    }
+.nav-bar{
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.nav-bar a{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 14px 16px;
+}
+
+a:hover, a:active{
+    color: black !important;
+    background-color: white;
+    text-decoration: underline;
+}
+
+a:link, a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.ul-list{
+    list-style-image: url('../images/triangle.PNG');
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -57,36 +87,8 @@ h2{font-size:3.5rem;}
 h3{font-size:2rem;}
 
 .page-section{
-    height: 100vh;
-    left: 0;
+    padding: 30px 0px;
     right: 0;
-}
-
-.nav-bar{
-    padding-top: 25vh;
-}
-
-.nav-link{
-    display:block;
-    font-size: 30px;
-}
-
-.nav-list{
-    list-style-type: none;
-}
-
-.ul-list{
-    list-style-image: url('../images/triangle.PNG');
-}
-
-a:hover, a:active{
-    color: black !important;
-    text-decoration: underline;
-}
-
-a:link, a:visited{
-    color: white;
-    text-decoration: none;
 }
 
 a.email-font{
@@ -105,22 +107,17 @@ a.email-font:hover, a.email-font:active{
     display: inline-block;
 }
 
-@media (min-width:992px){
-    .frame{
-        width: 70px;
-        height: 100px;
-        padding-right: 10px;
-        vertical-align: middle;
-        display: table-cell;
-    }
-} 
-
 .frame{
     width: 70px;
     height: 100px;
     padding-right: 10px;
     vertical-align: middle;
-    display: table-cell;
+    display: inline-table;
+}
+
+.skills p{
+    padding: 0;
+    margin: 0;
 }
 
 .remove-icon{
@@ -128,6 +125,7 @@ a.email-font:hover, a.email-font:active{
     padding-bottom: 20px;
     left: 0;
 }
+
 .languages{
     padding-left: 40px;
 }

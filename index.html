@@ -16,39 +16,28 @@
     
     </head>
     <body>
-        <div class="nav-bar primary-txt-color primary-background-color" id="sidenav">
+        <div class="nav-bar primary-txt-color primary-background-color">
             <!--Personal detail-->
-            <img src="Logo/ProfilePic.jpg" alt="Profile pic">
-            <ul class="nav-list">
-                <li>
-                    <a class="nav-link" href="#abouts">Abouts</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="#skills">Skills</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="#qualities">Qualities</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="#education">Education</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="#work-experience">Work Experience</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="#interest">Interest</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="#projects">Projects</a>
-                </li>
-            </ul>
+            <div class="nav-list">
+                <a class="nav-link" href="#abouts">Abouts</a>
+                <a class="nav-link" href="#skills">Skills</a>
+                <a class="nav-link" href="#qualities">Qualities</a>
+                <a class="nav-link" href="#education">Education</a>
+                <a class="nav-link" href="#work-experience">Work Experience</a>
+                <a class="nav-link" href="#interest">Interest</a>
+                <a class="nav-link" href="#projects">Projects</a>
+            </div>
+        </div>
+
+        <div  id="sidenav">
 
         </div>
+
 
         <div class="main">
             <!--Short descpription-->
             <div class="page-section about" id="abouts">
-                <div class="personal-info">
+                <div class="personal-info main-body">
                     <h1 id="FirstN">Justin
                         <span class="primary-txt-color" id="LastN">Gamache</span>
                     </h1> 
@@ -63,11 +52,11 @@
                     </div>
                 </div>
             </div>
-            <hr>
+
             <!--Skills-->
             <div class="page-section skills" id="skills">
                 <h2>Skills</h2>
-                <ul class="ul-list">                        
+                <ul class="ul-list main-body">                        
                     <li>
                         <h4>Website development</h4>
                         <div class="program-expertise languages">
@@ -85,6 +74,7 @@
                                 <img src="Logo\JS.png" alt="JavaScript"></img>
                                 <img src="Logo\0Percent-bar.png" alt="0%">    
                             </div>
+                            <p>Website development based on personal experience and work</p>
                         </div>
                     </li>
                     <li> 
@@ -124,6 +114,7 @@
                                 <img src="Logo\OOP.png" alt="OOP"></img>
                                 <img src="Logo\90Percent-bar.png" alt="80%">   
                             </div>
+                            <p>Coding development based on personal and college experience</p>
                         </div>
                     </li>
                     
@@ -141,7 +132,7 @@
                         <h4>Computer and office equipement</h4>
                         <div class="languages">
                             <img src="Logo\Computer.png" alt="Computer">
-                            <P>Deep understanding and practice with computer and office equipment</P>
+                            <P>Benn tickering with computer since a young and have a good understanding on how to use and repair software and hardware</P>
                         </div>
                     </li>
 
@@ -184,16 +175,16 @@
                                 <img src="Logo\reading.png" alt="">
                                 <img src="Logo\70Percent-bar.png" alt="90%">
                             </div>
-                        </div>
-                        <p>Fluent in English and French comprehension, but intermediate in French writing and speaking</p>
+                            <p>Fluent in English and French comprehension, but intermediate in French writing and speaking</p>
+                        </div> 
                     </li>
                 </ul>
             </div>
-            <hr>
+
             <!--Qualities-->
             <div class="page-section qualities" id="qualities">
                 <h2>Qualities</h2>
-                <ul class="ul-list">
+                <ul class="ul-list main-body">
                     <li>Dependable</li>
                     <li>Highly organized</li>
                     <li>Self-motivated</li>
@@ -201,11 +192,11 @@
                     <li>Ethical and loyal</li>
                 </ul>
             </div>
-            <hr>
+
             <!--Education-->
             <div class="page-section education" id="education">
                 <h2>Education</h2>
-                <ul class="ul-list">
+                <ul class="ul-list main-body">
                     <!--Algonqion College-->
                     <li>
                         <h3>Algonquin College</h3>
@@ -237,12 +228,11 @@
                     </li>
                 </ul>
             </div>
-            <hr>
 
             <!--Work Experience-->
-            <div class="work" id="work-experience">
+            <div class="page-section work" id="work-experience">
                 <h2>Work Experience</h2>
-                <ul class="ul-list">
+                <ul class="ul-list main-body">
                     <!--DXC-->
                     <li>
                         <h3>Service Solution IV, DXC</h3>
@@ -308,12 +298,11 @@
                     </li>
                 </ul>
             </div>
-            <hr>
 
             <!--Interest-->
-            <div class="page-section section interest">
+            <div class="page-section interest">
                 <h2 id="interest">Interest</h2>
-                <ul class="ul-list">
+                <ul class="ul-list main-body">
                     <li>Video games and virtual reality</li>
                     <li>Cooking</li>
                     <li>Building computers</li>
@@ -326,5 +315,6 @@
 
             <p>References available upon request</p>
         </div>
+        <img src="Logo/ProfilePic.jpg" alt="Profile pic">
     </body>
 </html>
